@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0 7rem 0 7rem;
+    background: rgb(34, 33, 33);
+    font-family: sans-serif;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    background-color: #3682e4;
+}
+
+.form {
+    background: white;
+    padding: 10px 30px;
+    margin: 20px;
+    border-radius: 15px;
+    width: 310px;
+    min-height:60vh; 
+}
+
+.form h2 {
+    text-align: center;
+    color: #363535;
+    margin-bottom: 20px;
+    background: white;
+    font-size: 24px;
+}
+
+.form input {
+    width:91%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid rgba(182, 168, 168,0.5);
+    border-radius: 8px;
+    font-size: 14px;
+    
+}
+
+input:focus {
+    border-color: blue;
+    outline: none; 
+    box-shadow: 0 0 5px 0 rgba(49, 139, 235, 0.5);
+}
+
+input:valid {
+    border-color: green;
+    box-shadow: 0 0 5px 0 rgba(0, 128, 0, 0.4);
+}
+
+input:invalid {
+    border-color: red;
+    box-shadow: 0 0 5px 0 rgba(255, 0, 0, 0.4);
+}
+.form button {
+    width:100%;
+    padding: 12px;
+    margin: 10px 0 0 0;
+    border-radius: 8px;
+    font-size: 17px;
+}
+
+.links {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.links a {
+    color: #318beb;
+    text-decoration: none;    
+}
+
+.hr {
+    display: flex;
+    width:100%;
+    text-align: center;
+    margin:20px 0 0 0 ;  
+}
+.hr span {
+    color: #666;
+    background: white;
+    padding: 0 10px;
+    font-size: 14px;
+    
+}
+
+.hr::before,
+.hr::after {
+  content: "";
+  margin: 10px 0 8px 0;
+  flex: 1;
+  border-top: 1px solid #ccc;
+}
+.hr::before {
+    margin-right: 10px;
+}
+  
+.hr::after {
+    margin-left: 10px;
+}
+
+
+.media button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    margin: 6px 0 20px 0;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+.facebook {
+    background: #3b5998;
+    color: white;
+    border: 1px solid transparent;
+    height: 43px;
+}
+.facebook img{    
+    position: relative;
+    right:60px;
+    width: 40px;        
+}
+
+.google {
+    background: white;
+    color: #666;
+    border: 1px solid rgba(182, 168, 168,0.5);
+    height: 40px;
+}
+
+.google img{
+    position: relative;
+    right:68px;
+    width: 20px;
+}
+
+
+
+
+
+
+
